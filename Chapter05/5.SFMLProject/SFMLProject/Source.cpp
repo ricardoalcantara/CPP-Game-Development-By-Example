@@ -1,5 +1,10 @@
+#if _WIN32
 #include "SFML-2.5.1\include\SFML\Graphics.hpp"
 #include "SFML-2.5.1\include\SFML\Audio.hpp"
+#else
+#include "SFML/Graphics.hpp"
+#include "SFML/Audio.hpp"
+#endif
 
 #include <vector>
 

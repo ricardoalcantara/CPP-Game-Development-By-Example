@@ -1,0 +1,9 @@
+# Binary
+bin/
+bin-int/
+
+# Linux
+Makefile
+
+# VSCode
+.vscode/

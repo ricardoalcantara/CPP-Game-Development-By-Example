@@ -1,6 +1,35 @@
 # CPP-Game-Development-By-Example
 
-# 
+# Linux build
+
+I've used premake to build the linux version
+
+> Premake for windows was not tested
+
+Because the given assets path is relative you must be inside the Project folder where the Assets folder is: 
+
+eg.
+
+```bash
+$ cd Chapter04/4.SFMLProject/SFMLProject
+$ ../bin/Debug-linux-x86_64/4.SFMLProject/4.SFMLProject
+```
+
+Current work done:
+
+* [x] Chapter03
+* [x] Chapter04
+* [x] Chapter05
+* [ ] Chapter06
+* [ ] Chapter07
+* [ ] Chapter08
+* [ ] Chapter09
+* [ ] Chapter10
+* [ ] Chapter11
+* [ ] Chapter12
+
+
+#
 
 <a href="https://www.packtpub.com/web-development/c-game-development-example?utm_source=github&utm_medium=repository&utm_campaign="><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781789535303_cover.png" alt="CPP-Game-Development-By-Example" height="256px" align="right"></a>
 

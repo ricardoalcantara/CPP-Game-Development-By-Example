@@ -1,6 +1,10 @@
 #pragma once
 
+#if _WIN32
 #include "SFML-2.5.1\include\SFML\Graphics.hpp"
+#else
+#include "SFML/Graphics.hpp"
+#endif
 
 class Hero {
 
