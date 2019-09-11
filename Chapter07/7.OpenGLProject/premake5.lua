@@ -17,13 +17,17 @@ project "7.OpenGLProject"
 
     includedirs
     {
-        "OpenGLProject"
+        "OpenGLProject",
+        "%{IncludeDir.GLFW}",
+        "%{IncludeDir.GLEW}",
+        "%{IncludeDir.bullet}"
     }
 
     links 
     { 
         "GLFW",
         "GLEW",
+        "bullet"
     }
 
     filter "system:windows"

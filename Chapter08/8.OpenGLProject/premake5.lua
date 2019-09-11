@@ -12,18 +12,29 @@ project "8.OpenGLProject"
         "OpenGLProject/*.h",
         "OpenGLProject/*.cpp",
         "%{IncludeDir.glm}/glm/**.hpp",
-		"%{IncludeDir.glm}/glm/**.inl",
+        "%{IncludeDir.glm}/glm/**.inl",
     }
 
     includedirs
     {
-        "OpenGLProject"
+        "OpenGLProject",
+        "%{IncludeDir.GLFW}",
+        "%{IncludeDir.GLEW}",
+        "%{IncludeDir.bullet}",
+        "%{IncludeDir.freetype}",
+    }
+
+    libdirs
+    {
+        "%{LibDir.freetype}",
     }
 
     links 
     { 
         "GLFW",
         "GLEW",
+        "bullet",
+        "freetype",
     }
 
     filter "system:windows"
@@ -37,7 +48,7 @@ project "8.OpenGLProject"
         { 
             "OpenGL32"
         }
-    
+
     filter "system:linux"
         defines
         {

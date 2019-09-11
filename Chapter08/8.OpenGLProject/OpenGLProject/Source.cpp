@@ -77,7 +77,7 @@ void initGame() {
 	light->setColor(glm::vec3(1.0f, 1.0f, 1.0f));
 
 	//text label
-	label = new TextRenderer("Score: 0", "Assets/fonts/gooddog.ttf", 64, glm::vec3(1.0f, 0.0f, 0.0f), textProgram);
+	label = new TextRenderer("Score: 0", "Assets/Fonts/gooddog.ttf", 64, glm::vec3(1.0f, 0.0f, 0.0f), textProgram);
 	label->setPosition(glm::vec2(320.0f, 500.0f));
 
 
