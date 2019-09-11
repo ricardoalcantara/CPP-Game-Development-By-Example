@@ -9,4 +9,4 @@ Makefile
 .vscode/
 
 #Libs
-!libs/freetype-2.10.0/**
+libs/freetype-2.10.0/

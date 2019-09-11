@@ -15,14 +15,23 @@ $ cd Chapter04/4.SFMLProject/SFMLProject
 $ ../bin/Debug-linux-x86_64/4.SFMLProject/4.SFMLProject
 ```
 
+freetype must be build
+
+cd libs/freetype-2.10.0
+
+```bash
+./configure
+make
+```
+
 Current work done:
 
 * [x] Chapter03
 * [x] Chapter04
 * [x] Chapter05
-* [ ] Chapter06
-* [ ] Chapter07
-* [ ] Chapter08
+* [x] Chapter06
+* [x] Chapter07
+* [x] Chapter08
 * [ ] Chapter09
 * [ ] Chapter10
 * [ ] Chapter11
