@@ -7,3 +7,6 @@ Makefile
 
 # VSCode
 .vscode/
+
+#Libs
+!libs/freetype-2.10.0/**
