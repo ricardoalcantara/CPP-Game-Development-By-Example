@@ -32,8 +32,8 @@ Current work done:
 * [x] Chapter06
 * [x] Chapter07
 * [x] Chapter08
-* [ ] Chapter09
-* [ ] Chapter10
+* [x] Chapter09
+* [x] Chapter10
 * [ ] Chapter11
 * [ ] Chapter12
 

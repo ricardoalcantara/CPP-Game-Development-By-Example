@@ -1,11 +1,11 @@
 #pragma once
 
-#include <vulkan\vulkan.h>
+#include <vulkan/vulkan.h>
 #include <vector>
 #include <iostream>
 
 #define GLFW_INCLUDE_VULKAN
-#include <GLFW\glfw3.h>
+#include <GLFW/glfw3.h>
 
 class AppValidationLayersAndExtensions {
 		

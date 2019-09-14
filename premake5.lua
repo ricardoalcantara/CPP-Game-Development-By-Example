@@ -15,9 +15,12 @@ IncludeDir["GLEW"] = "%{wks.location}/libs/glew-2.1.0/include"
 IncludeDir["bullet"] = "%{wks.location}/libs/bullet3-2.88/src"
 IncludeDir["glm"] = "%{wks.location}/libs/glm"
 IncludeDir["freetype"] = "%{wks.location}/libs/freetype-2.10.0/include"
+IncludeDir["Vulkan"] = "%{os.getenv('VULKAN_SDK')}/include"
+
 
 LibDir = {}
 LibDir["freetype"] = "%{wks.location}/libs/freetype-2.10.0/objs/.libs"
+LibDir["Vulkan"] = "%{os.getenv('VULKAN_SDK')}/lib"
 
 group "Dependencies"
     include "libs/glew-2.1.0"
@@ -29,5 +32,9 @@ group "Dependencies"
     include "Chapter06/6.OpenGLProject"
     include "Chapter07/7.OpenGLProject"
     include "Chapter08/8.OpenGLProject"
+    include "Chapter09/9.VulkanProject"
+    include "Chapter10/10.VulkanProject"
+    include "Chapter11/11.VulkanProject"
+    include "Chapter12/12.VulkanProject"
     
 
