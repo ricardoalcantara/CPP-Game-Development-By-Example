@@ -1,3 +1,4 @@
+#include <cstring>
 #include "ObjectBuffers.h"
 
 #include "Tools.h"

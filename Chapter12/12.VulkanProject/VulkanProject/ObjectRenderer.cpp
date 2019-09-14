@@ -1,3 +1,5 @@
+#include <cstring>
+
 #include "ObjectRenderer.h"
 
 #include "VulkanContext.h"

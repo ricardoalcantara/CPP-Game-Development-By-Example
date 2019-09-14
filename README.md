@@ -66,8 +66,8 @@ bin/Debug-linux-x86_64/Drawing_a_triangle/Drawing_a_triangle
 * [x] Chapter08
 * [x] Chapter09
 * [x] Chapter10
-* [ ] Chapter11
-* [ ] Chapter12
+* [x] Chapter11
+* [x] Chapter12
 
 
 #
